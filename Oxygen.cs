@@ -32,10 +32,8 @@ public class Oxygen : MonoBehaviour
             }
             else
             {
-                //Debug.Log("Time is UP!");
                 TimeLeft = 0;
                 TimerOn = false;
-                //health = 0;
                 playerHealth.TakeDamage(damage);
             }
         }
